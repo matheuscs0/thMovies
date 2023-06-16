@@ -1,0 +1,58 @@
+.Page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.moviePage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.308);
+  border-radius: 4rem;
+  color: aliceblue;
+  width: 70rem;
+  height:80rem;
+  margin-top: 20rem;
+}
+.infos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 60rem;
+  gap: 5rem;
+  margin-top: 25rem;
+}
+.infos h3{
+  display: flex;
+  color: #da5b07;
+}
+.info-genre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info-genre p{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.moviePage div img{
+  max-width: 400px;
+  border-radius: 20px;
+  margin-top: 10rem;
+}
+.description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.description p{
+  display: flex;
+}
